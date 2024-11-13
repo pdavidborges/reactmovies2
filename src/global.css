@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+    body{
+        @apply bg-brand-blue-dark;
+        @apply text-white;        
+        /*overflow-y: scroll;*/
+        padding-bottom: 50px;
+    }
+
+    h1{
+        @apply text-3xl;
+        @apply font-bold;                
+    }
+    
+    @screen md{
+        h1{
+            @apply text-5xl;
+        }
+    }
+
+}
+
+
+
